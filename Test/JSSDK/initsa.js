@@ -75,17 +75,15 @@
   
   });
   
-  sensors.register({testname:'gz'});
+  // sensors.register({testname:'gz'});
   // sensors.registerPage({like:'orange',like2:'apple'});
   // sensors.clearAllRegister();
   // sensors.clearAllRegister();
   // sensors.quick('autoTrack', {
   //   platForm:'h5'
   // })
-  sensors.login('44444');
-  // sensors.quick('autoTrack',{},function(){
-  //   alert(111);
-  // });
+  // sensors.login('44444');
+  sensors.quick('autoTrack');
   // sensors.track('$webk',{name:'gz'});
   // sensors.setProfile({ip:'12.123.23.24'});
 

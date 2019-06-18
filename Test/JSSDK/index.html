@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<script src="initsa.js"></script>
+	<style>
+		button {
+			margin-top: 2000px;
+		}
+	</style>
+</head>
+<body>
+<p>测试</p>
+<a href="#/miao?utm_source=gzgzgz">锚点</a>
+<br>
+<div id="testgz" style="display:inline-block;height:200px;width:200px;background-color:aquamarine;"> 
+	<a href="https://www.baidu.com">baidu</a>
+</div>
+
+<br>
+<a href="javascript:;" id="123" data='test'> 点击按钮触发</a>
+<a href="javascript:;" name='testdisplay' style="display:inline-block;width:20px;height:20px;background-color:red">
+	<i style="display:none"></i>
+</a>
+<br>
+<input type="checkbox" value='test' name='gz' checked='checked'/> 测试的checkbox点击
+<!-- <a href='https://www.baidu.com' id='gobaidu' name='gobaidu' event='gztest' target="_blank">百度一下</a> -->
+<script>
+		document.getElementById('testgz').onclick=function(e){
+				// alert('d');
+				//return false;
+				// if (e.stopPropagation){
+			    // 	e.stopPropagation();//停止冒泡  非ie
+			    // }else{
+			    // 	e.cancelBubble = true;//停止冒泡 ie
+			    	
+			    // }
+		}
+		document.getElementById("123").onclick=function(event) {
+			sensors.quick('trackAllHeatMap',this); //第二个参数是发生事件的dom元素
+		};
+		
+</script>
+</body>
+</html>

@@ -29,7 +29,7 @@
     sdk_url: 'sensorsdata.full.js',
     heatmap_url: 'heatmap.js',
     name: 'sensors',
-    server_url: 'http://test-syg.datasink.sensorsdata.cn/sa?project=lixiang&token=27f1e21b78daf376',
+    server_url: 'https://sdk-test.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=95c73ae661f85aa0',
     // debug_mode: false,
     // is_single_page: true,
     // send_type: 'beacon',

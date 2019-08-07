@@ -57,7 +57,7 @@
       custom_property:function( element_target ){
         //比如您需要给有 data=test 属性的标签的点击事件增加自定义属性 name:'aa' ，则代码如下
             return {
-                customname:'aa'
+                customname:'aaaaa%'
             }
         
       },

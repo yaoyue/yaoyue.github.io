@@ -1772,7 +1772,7 @@
           return '未取到值';
         } else {
           if (document.referrer === '') {
-            return '未取到值_直接打开--%';
+            return '未取到值_直接打开--%百分号后面字符1234567890';
           } else {
             return '未取到值_非http的url';
           }

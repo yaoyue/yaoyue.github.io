@@ -89,7 +89,15 @@
   // sensors.setProfile({ip:'12.123.23.24'});
 
  sensors.track("testTime",{
-    $time:1566202524
+    $time:1566202524000
+  });
+
+  sensors.track("testTimeError",{
+    $time:'cnakrvbnafzjrlfjs'
+  });
+
+  sensors.track("testTimeErrorInt",{
+    $time:1131656640000
   });
 
   // sensors.track('gz',{});

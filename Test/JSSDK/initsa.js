@@ -29,7 +29,7 @@
     sdk_url: 'sensorsdata.full.js',
     heatmap_url: 'heatmap.js',
     name: 'sensors',
-    server_url: 'https://sdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=21f2e56df73988c7',
+    server_url: 'https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca',
     // server_url:'http://10.42.176.3:8106/sa?project=default&token=fa025b40b9c2665e',
     // debug_mode: false,
     // is_single_page: true,
@@ -88,17 +88,17 @@
   // sensors.track('$webk',{name:'gz'});
   // sensors.setProfile({ip:'12.123.23.24'});
 
-//  sensors.track("testTime",{
-//     $time:1566202524000
-//   });
+ sensors.track("testTimeRight",{
+    $time:1588215802000
+  });
 
 //   sensors.track("testTimeError",{
 //     $time:'cnakrvbnafzjrlfjs'
 //   });
 
-//   sensors.track("testTimeErrorInt",{
-//     $time:1131656640000
-//   });
+  sensors.track("testTimeErrorInt",{
+    $time:1131656640000
+  });
 
   // sensors.track('gz',{});
   

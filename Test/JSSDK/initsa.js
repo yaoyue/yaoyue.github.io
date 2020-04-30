@@ -88,17 +88,17 @@
   // sensors.track('$webk',{name:'gz'});
   // sensors.setProfile({ip:'12.123.23.24'});
 
- sensors.track("testTimeRight",{
-    $time:1588215802000
-  });
+//  sensors.track("testTimeRight",{
+//     $time:1588215802000
+//   });
 
 //   sensors.track("testTimeError",{
 //     $time:'cnakrvbnafzjrlfjs'
 //   });
 
-  sensors.track("testTimeErrorInt",{
-    $time:1131656640000
-  });
+  // sensors.track("testTimeErrorInt",{
+  //   $time:1131656640000
+  // });
 
   // sensors.track('gz',{});
   

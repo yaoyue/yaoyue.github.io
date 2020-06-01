@@ -83,8 +83,11 @@
   // sensors.quick('autoTrack', {
   //   platForm:'h5'
   // })
-  // sensors.login('44444');
+
+
+  // sensors.login('2E5B2EBF-7C12-43D0-951D-906CA1DAD540');
   sensors.quick('autoTrack');
+
   // sensors.track('$webk',{name:'gz'});
   // sensors.setProfile({ip:'12.123.23.24'});
 

@@ -85,7 +85,7 @@
   // })
 
 
-  // sensors.login('2E5B2EBF-7C12-43D0-951D-906CA1DAD540');
+  sensors.login('1234569876');
   sensors.quick('autoTrack');
 
   // sensors.track('$webk',{name:'gz'});

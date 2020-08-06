@@ -1,4 +1,3 @@
-
 <script>
 (function(para) {
   var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
@@ -20,8 +19,8 @@
     y.parentNode.insertBefore(x, y);
   }
 })({
-  sdk_url: 'https://cdn.jsdelivr.net/npm/sa-sdk-javascript@1.15.14/sensorsdata.min.js',
-  heatmap_url: 'https://cdn.jsdelivr.net/npm/sa-sdk-javascript@1.15.14/heatmap.min.js',
+  sdk_url: 'https://static.sensorsdata.cn/sdk/1.15.14/sensorsdata.min.js',
+  heatmap_url: 'https://static.sensorsdata.cn/sdk/1.15.14/heatmap.min.js',
   name: 'sensors',
   server_url: 'https://newsdktest.datasink.sensorsdata.cn/sa?token=5a394d2405c147ca&project=chuqiangsheng',
   heatmap:{scroll_notice_map:'not_collect'}

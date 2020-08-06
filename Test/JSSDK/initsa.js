@@ -26,10 +26,11 @@
       // w[n].para = para;
     }
   })({
-    sdk_url: 'sensorsdata.full.js',
-    heatmap_url: 'heatmap.js',
+    sdk_url: 'https://cdn.jsdelivr.net/npm/sa-sdk-javascript@1.15.14/sensorsdata.min.js',
+    heatmap_url: 'https://cdn.jsdelivr.net/npm/sa-sdk-javascript@1.15.14/heatmap.min.js',
     name: 'sensors',
     server_url: 'https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca',
+    heatmap:{scroll_notice_map:'not_collect'}
     // server_url:'http://10.42.176.3:8106/sa?project=default&token=fa025b40b9c2665e',
     // debug_mode: false,
     // is_single_page: true,

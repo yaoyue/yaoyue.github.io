@@ -39,8 +39,8 @@
     }
 })({
     // sdk_url:'./code/sensorsdata.js',
-    sdk_url:'https://cdn.jsdelivr.net/npm/sa-sdk-javascript@1.15.14/sensorsdata.min.js',
-    // heatmap_url:'./code/1.14.23/heatmap.js',
+    sdk_url: 'https://static.sensorsdata.cn/sdk/1.15.16/sensorsdata.min.js',
+    heatmap:{scroll_notice_map:'not_collect'},
     name: 'sensors',
     server_url: 'https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca',
     heatmap:{
@@ -126,8 +126,6 @@
     // }
 });
 sensors.quick('autoTrack');
-
-
 
 
  

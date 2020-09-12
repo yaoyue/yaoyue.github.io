@@ -129,6 +129,10 @@
 });
 sensors.quick('autoTrack');
 
+sensors.track('webTrackTest', {
+    name:"cqs 测试 H5 track 事件"
+});
+
 
  
 function sdkfunc(arr){

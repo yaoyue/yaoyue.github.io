@@ -41,8 +41,10 @@
     // sdk_url:'./code/sensorsdata.js',
     sdk_url: 'https://static.sensorsdata.cn/sdk/1.15.16/sensorsdata.min.js',
     heatmap:{scroll_notice_map:'not_collect'},
-    name: 'sensors',
-    server_url: 'https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca',
+    name: 'sensors', 
+    // http://10.120.46.163:8106/sa?project=default
+    // https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca
+    server_url: 'http://10.120.46.163:8106/sa?project=default',
     heatmap:{
         scroll_notice_map:'not_collect'
     },

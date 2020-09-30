@@ -129,6 +129,8 @@
 });
 sensors.quick('autoTrack');
 
+sensors.login('cqs_lgoin_h5_test_0930')
+
 sensors.track('webTrackTest', {
     name:"cqs 测试 H5 track 事件"
 });

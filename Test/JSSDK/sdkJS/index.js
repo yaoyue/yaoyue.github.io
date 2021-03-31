@@ -127,6 +127,12 @@
     //     latest_referrer:true
     // }
 });
+
+// 注册公共属性
+sensors.registerPage({
+	time:"公共属性，自定义时间 time",
+});
+
 sensors.quick('autoTrack');
 
 sensors.login('cqs_lgoin_h5_test_0930')
@@ -144,8 +150,6 @@ sensors.track('webTrackCheckKey2', {
     device_id:'这是 device_id 啊，啊哈哈',
     name: '正常属性，name 哈哈哈'
 });
-
-
  
 function sdkfunc(arr){
     function func(nameArr){

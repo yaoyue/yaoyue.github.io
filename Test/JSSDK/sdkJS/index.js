@@ -131,10 +131,11 @@ sensors.quick('autoTrack');
 
 sensors.login('cqs_lgoin_h5_test_0930')
 
-// sensors.track('webTrackTest', {
-//     name:"cqs 测试 H5 track 事件"
-// });
 sensors.track('webTrackTest', {
+    name:"cqs 测试 H5 track 事件"
+});
+
+sensors.track('webTrackCheckKey', {
     time:"这是自定义时间  time",
     device_id:'这是 device_id 啊，啊哈哈',
     name: '正常属性，name 哈哈哈'

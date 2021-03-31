@@ -78,7 +78,7 @@
     //     white_list:['https://test-syg.datasink.sensorsdata.cn/sa?project=liangshuang&token=27f1e21b78daf376','https://testtest-syg.datasink.sensorsdata.cn/sa?project=liangshuang&token=27f1e21b78daf376']
     // },
     app_js_bridge:{
-       white_list:['https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca','http://10.120.12.0:8106/sa?project=default&token=schemaLimited-dacagu4d', 'http://10.120.149.211:8106/sa?project=default', 'http://10.120.153.157:8106/sa?project=default', 'http://10.120.46.62:8106/sa?project=default', 'http://10.120.166.105:8106/sa?project=default', 'http://10.120.46.163:8106/sa?project=default', 'http://10.120.148.27:8106/sa/sa?project=default', 'http://apimapping.debugbox.sensorsdata.cn/10-120-46-62/8106/sa?project=default&token=schemaLimited-g8gZIuzx']
+       white_list:['https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca','http://10.120.12.0:8106/sa?project=default&token=schemaLimited-dacagu4d', 'http://10.120.149.211:8106/sa?project=default', 'http://10.120.153.157:8106/sa?project=default', 'http://10.120.46.62:8106/sa?project=default', 'http://10.120.166.105:8106/sa?project=default', 'http://10.120.46.163:8106/sa?project=default', 'http://10.120.148.27:8106/sa/sa?project=default', 'http://apimapping.debugbox.sensorsdata.cn/10-120-46-62/8106/sa?project=default&token=schemaLimited-g8gZIuzx', 'http://10.129.140.33:8106/sa?project=default']
 
     },
     // batch_send:true,
@@ -131,8 +131,13 @@ sensors.quick('autoTrack');
 
 sensors.login('cqs_lgoin_h5_test_0930')
 
+// sensors.track('webTrackTest', {
+//     name:"cqs 测试 H5 track 事件"
+// });
 sensors.track('webTrackTest', {
-    name:"cqs 测试 H5 track 事件"
+    time:"这是自定义时间  time",
+    device_id:'这是 device_id 啊，啊哈哈',
+    name: '正常属性，name 哈哈哈'
 });
 
 

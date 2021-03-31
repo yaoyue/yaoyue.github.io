@@ -131,6 +131,7 @@
 // 注册公共属性
 sensors.registerPage({
 	time:"公共属性，自定义时间 time",
+    name: '正公共属性，name 哈哈哈'
 });
 
 sensors.quick('autoTrack');

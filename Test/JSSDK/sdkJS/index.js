@@ -135,8 +135,12 @@ sensors.track('webTrackTest', {
     name:"cqs 测试 H5 track 事件"
 });
 
-sensors.track('webTrackCheckKey', {
+sensors.track('webTrackCheckKey1', {
     time:"这是自定义时间  time",
+    name: '正常属性，name 哈哈哈'
+});
+
+sensors.track('webTrackCheckKey2', {
     device_id:'这是 device_id 啊，啊哈哈',
     name: '正常属性，name 哈哈哈'
 });

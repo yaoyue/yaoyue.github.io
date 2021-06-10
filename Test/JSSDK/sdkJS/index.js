@@ -78,7 +78,7 @@
     //     white_list:['https://test-syg.datasink.sensorsdata.cn/sa?project=liangshuang&token=27f1e21b78daf376','https://testtest-syg.datasink.sensorsdata.cn/sa?project=liangshuang&token=27f1e21b78daf376']
     // },
     app_js_bridge:{
-       white_list:['https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca','http://10.120.12.0:8106/sa?project=default&token=schemaLimited-dacagu4d', 'http://10.120.149.211:8106/sa?project=default', 'http://10.120.153.157:8106/sa?project=default', 'http://10.120.46.62:8106/sa?project=default', 'http://10.120.166.105:8106/sa?project=default', 'http://10.120.46.163:8106/sa?project=default', 'http://10.120.148.27:8106/sa/sa?project=default', 'http://apimapping.debugbox.sensorsdata.cn/10-120-46-62/8106/sa?project=default&token=schemaLimited-g8gZIuzx', 'http://10.129.140.33:8106/sa?project=default','http://10.120.217.246:8106/sa?project=default']
+       white_list:['https://newsdktest.datasink.sensorsdata.cn/sa?project=chuqiangsheng&token=5a394d2405c147ca','http://10.120.12.0:8106/sa?project=default&token=schemaLimited-dacagu4d', 'http://10.120.243.129:8106/sa?project=default', 'http://10.120.73.51:8106/sa?project=default']
 
     },
     // batch_send:true,

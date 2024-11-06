@@ -1,5 +1,5 @@
 # yaoyue.github.io
 
 #### 访问说明
-类似：https://yaoyue.github.io/Test/JSSDK/JDdemo.html
+存在风险，暂时删除
 
